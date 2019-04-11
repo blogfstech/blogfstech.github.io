@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Tech FS
+title: FS Tech - Blog
 email: blogfstech@gmail.com
-description: Este é um blog focado em post técnico. Teremos semanalmente novos posts sobre assuntos diversos.
+description:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blogfstech.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
