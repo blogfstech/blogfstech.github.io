@@ -9,7 +9,15 @@
 .post-link:visited{
     color: hsla(0, 0%, 0%, .6);
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 .site-title:hover,
 .post-link:hover{text-decoration: none;}
+.title-home-section{
+    color: hsla(0, 0%, 0%, .6);
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin: 0 0 2rem 0;
+}
+.post-list li{padding: .3rem .8rem 0 .8rem;}
+.post-list li:nth-child(2n){background-color: hsla(0, 0%, 0%, .03);}
