@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Engenharia de confiabilidade de site (SRE)"
-date:   2019-04-26 12:00:00 -0300
+date:   2019-04-26 11:30:00 -0300
 categories: post
 author: Jonas Thomaz de Faria
 ---
@@ -11,11 +11,11 @@ author: Jonas Thomaz de Faria
 
 Tive contato com este termo a pouco mais de 1 mês, e honestamente estava meio perdido sobre o que ele realmente significa: Um framework? Boas práticas? Manual de Ciências da Computação for Dummies?
 O objetivo aqui é apresentar SRE: o que é? como usar? E como se preparar para usar.
-Basicamente aqui vou usar como referência o livro [Engenharia de Confiabilidade do Google da O'Reilly]{https://www.google.com/search?q=Engenharia+de+Confiabilidade+do+Google&oq=Engenharia+de+Confiabilidade+do+Google&aqs=chrome..69i57j0l4.382j0j4&sourceid=chrome&ie=UTF-8} (facilmente acessado através da mesa do Carlão ou comprado na livraria/e commerce da sua preferência).
+Basicamente aqui vou usar como referência o livro [Engenharia de Confiabilidade do Google da O'Reilly](https://www.google.com/search?q=Engenharia+de+Confiabilidade+do+Google&oq=Engenharia+de+Confiabilidade+do+Google&aqs=chrome..69i57j0l4.382j0j4&sourceid=chrome&ie=UTF-8) (facilmente acessado através da mesa do Carlão ou comprado na livraria/e commerce da sua preferência).
 
 ## O que é SRE?
 
-De acordo com [Ben Treynor]{https://www.linkedin.com/in/benjamin-treynor-sloss-207120/}, fundador da Equipe de Confiabilidade de Site da Google, Engenharia de Confiabilidade de Sites (SRE é como vou escrever daqui pra frente, porque ,meu deus, é muita coisa) é **"o que acontece quando um engenheiro de software é encarregado do que costumamos chamar de operações"**. A idéia geral aqui é a de engenheiros de software se responsabilizem de forma multidisciplinar na gestão e automação do ambiente de tecnologia visando a criação de software escalável e confiável.
+De acordo com [Ben Treynor](https://www.linkedin.com/in/benjamin-treynor-sloss-207120/), fundador da Equipe de Confiabilidade de Site da Google, Engenharia de Confiabilidade de Sites (SRE é como vou escrever daqui pra frente, porque ,meu deus, é muita coisa) é **"o que acontece quando um engenheiro de software é encarregado do que costumamos chamar de operações"**. A idéia geral aqui é a de engenheiros de software se responsabilizem de forma multidisciplinar na gestão e automação do ambiente de tecnologia visando a criação de software escalável e confiável.
 
 Certo, mas isso parece muito com DevOps não? Sim, SRE é basicamente uma implementação de DevOps com o objetivo específico de equilibrar a necessidade de se disponibilizar novas features do produto com a necessidade de se manter a operação estável. É muito fácil (e óbvio) identificar que falhas nos produtos estão diretamente ligadas a algum tipo de alteração no produto (Uma promoção nova, uma nova feature, comportamento de um novo grupo de usuários), gerando sempre um stress e desconfiança entre o time de desenvolvimento do produto e de operações.
 
